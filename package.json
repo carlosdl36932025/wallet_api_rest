@@ -1,0 +1,16 @@
+{
+  "name": "wallet_rest",
+  "version": "1.0.0",
+  "description": "API REST que actúa como puente para un servicio SOAP",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "soap": "^1.1.11"
+  }
+}
